@@ -1,0 +1,22 @@
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+class Vowel
+{
+	public static void main (String[] args) 
+	{
+		Scanner s=new Scanner(System.in);
+		char Vowel=s.next().charAt(0);
+		int count=0;
+		char c[]={'a','e','i','o','u'};
+		for(int i=0;i<5;i++)
+		{
+		if(c[i]==Vowel)
+     	            count=1;
+		}
+		if(count==1)
+		System.out.print("Vowel");
+		else
+		System.out.print("Consonent");
+		}
+	}
