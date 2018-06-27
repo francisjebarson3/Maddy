@@ -8,6 +8,7 @@ class NthChar
          int n=sc.nextInt();
         char N[]=input.toCharArray();
       int len=N.length;
-      System.out.println(N[len-n]);
+        for(int i=1;i<=len;i++)
+         System.out.println(N[len-i]);
     }
 }
